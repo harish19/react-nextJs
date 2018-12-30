@@ -1,0 +1,46 @@
+{
+  "name": "lpea",
+  "version": "1.0.0",
+  "description": "Hapi JS  Next JS stylus React-Agtomic-design ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "stylus-build": "webpack -p",
+    "stylus-mult": "webpack --config ./webpack.multiplefiles.config.js -p"
+  },
+  "keywords": [
+    "Hapi",
+    "JS",
+    "Next",
+    "JS",
+    "stylus",
+    "React-Agtomic-design"
+  ],
+  "author": "Harish K J",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^17.8.1",
+    "inert": "^5.1.2",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "util": "^0.11.1",
+    "util.promisify": "^1.0.0",
+    "vision": "^5.4.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "*",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.20.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "webpack": "^4.5.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0"
+  }
+}
